@@ -17,6 +17,8 @@ vim.g.airline_right_sep = ""
 vim.g.airline_right_alt_sep = ""
 vim.g.airline_powerline_fonts = 1
 
+vim.o.guifont = "Iosevka Nerd Font Mono:h12"
+
 vim.g.tmuxline_separators = {
   left = "",
   left_alt = "",
