@@ -10,6 +10,7 @@ return {
   { "edkolev/promptline.vim" },
   { "kyoh86/vim-jsonl" },
   { "xolox/vim-session", dependencies = { "xolox/vim-misc" } },
+  { "tpope/vim-sensible" },
   {
     "goolord/alpha-nvim",
     dependencies = {
