@@ -7,7 +7,6 @@ vim.cmd([[colorscheme gruvbox]])
 require("lspconfig").eslint.setup({})
 require("lspconfig").jsonls.setup({})
 require("lspconfig").marksman.setup({})
-require("lspconfig").pug.setup({})
 if not vim.g.vscode then
   require("aerial").setup({
     -- optionally use on_attach to set keymaps when aerial has attached to a buffer
