@@ -39,4 +39,12 @@ return {
     },
     config = true,
   },
+  {
+    "nvim-telescope/telescope.nvim",
+    opts = {
+      defaults = {
+        file_ignore_patterns = { "docs" },
+      },
+    },
+  },
 }
