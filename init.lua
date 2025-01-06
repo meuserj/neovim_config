@@ -27,6 +27,14 @@ if not vim.g.vscode then
     },
   })
 end
+
+require("lualine").setup({
+  options = {
+    component_separators = { left = "", right = "" },
+    section_separators = { left = "", right = "" },
+  },
+})
+
 -- You probably also want to set a keymap to toggle aerial
 vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
 local bufferline = require("bufferline")
