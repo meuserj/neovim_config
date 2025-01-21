@@ -3,6 +3,7 @@
 -- Add any additional options here
 
 vim.opt.clipboard = "unnamed"
+vim.opt.formatexpr = ""
 
 vim.g.session_autosave = "yes"
 vim.g.session_autosave_periodic = 30
