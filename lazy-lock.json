@@ -1,5 +1,6 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "LazyVim": {
     "branch": "main",
     "commit": "3f034d0a7f58031123300309f2efd3bb0356ee21"
@@ -209,6 +210,8 @@
     "commit": "370ec46f710e058c9c1646273e6b225acf47cbed"
   }
 =======
+=======
+>>>>>>> Stashed changes
   "LazyVim": { "branch": "main", "commit": "3f034d0a7f58031123300309f2efd3bb0356ee21" },
   "aerial.nvim": { "branch": "master", "commit": "44684bf429dc40e97a6d00ffa09043ac3f692186" },
   "blink.cmp": { "branch": "main", "commit": "cb5e346d9e0efa7a3eee7fd4da0b690c48d2a98e" },
