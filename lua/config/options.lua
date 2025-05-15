@@ -5,6 +5,8 @@
 vim.opt.clipboard = "unnamed"
 vim.opt.formatexpr = ""
 
+vim.g.autoformat = false
+
 vim.g.session_autosave = "yes"
 vim.g.session_autosave_periodic = 30
 vim.g.session_autosave_silent = 1
