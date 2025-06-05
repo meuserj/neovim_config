@@ -51,7 +51,7 @@ return {
             },
             schema = {
               model = {
-                default = 'gemma3:12b',
+                default = 'gemma3:27b',
               },
             },
           })
