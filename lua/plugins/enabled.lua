@@ -51,7 +51,7 @@ return {
             },
             schema = {
               model = {
-                default = 'deepseek-r1:latest',
+                default = 'gemma3:27b',
               },
             },
           })
