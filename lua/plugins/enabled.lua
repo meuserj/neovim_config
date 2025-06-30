@@ -35,58 +35,38 @@ return {
     config = true,
   },
   {
-    "yetone/avante.nvim",
-    build = function()
-      if vim.fn.has("win32") == 1 then
-        return "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false"
-      else
-        return "make"
-      end
-    end,
-    event = "VeryLazy",
+    "olimorris/codecompanion.nvim",
     opts = {
-      provider = "ollama",
-      providers = {
-        ollama = {
-          endpoint = "http://127.0.0.1:11434",
-          model = "codegemma",
+      strategies = {
+        chat = {
+          adapter = 'ollama',
+        },
+        inline = {
+          adapter = 'ollama',
+        },
+        agent = {
+          adapter = 'ollama',
         },
       },
+      adapters = {
+        ollama = function()
+          return require('codecompanion.adapters').extend('ollama', {
+            name = 'local_ollama',
+            env = {
+              url = 'http://localhost:11434',
+            },
+            schema = {
+              model = {
+                default = 'codegemma',
+              },
+            },
+          })
+        end,
+      },
+    },
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-treesitter/nvim-treesitter",
     },
   },
-  -- {
-  --   "olimorris/codecompanion.nvim",
-  --   opts = {
-  --     strategies = {
-  --       chat = {
-  --         adapter = 'ollama',
-  --       },
-  --       inline = {
-  --         adapter = 'ollama',
-  --       },
-  --       agent = {
-  --         adapter = 'ollama',
-  --       },
-  --     },
-  --     adapters = {
-  --       ollama = function()
-  --         return require('codecompanion.adapters').extend('ollama', {
-  --           name = 'local_ollama',
-  --           env = {
-  --             url = 'http://localhost:11434',
-  --           },
-  --           schema = {
-  --             model = {
-  --               default = 'gemma3:27b',
-  --             },
-  --           },
-  --         })
-  --       end,
-  --     },
-  --   },
-  --   dependencies = {
-  --     "nvim-lua/plenary.nvim",
-  --     "nvim-treesitter/nvim-treesitter",
-  --   },
-  -- },
 }
