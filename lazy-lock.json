@@ -6,7 +6,7 @@
   "bufonly.vim": { "branch": "master", "commit": "43dd92303979bdb234a3cb2f5662847f7a3affe7" },
   "catppuccin": { "branch": "main", "commit": "82f3dcedc9acc242d2d4f98abca02e2f10a75248" },
   "codecompanion-spinner.nvim": { "branch": "main", "commit": "68fa08a678009ad1c4478720f6cd4851c2bcd1e5" },
-  "codecompanion.nvim": { "branch": "main", "commit": "c648ca7ea708b5e62553d5cc9a3f407134bd05ae" },
+  "codecompanion.nvim": { "branch": "main", "commit": "70a7dc3c624b5233723691f67e2b5e7e282e5dca" },
   "conform.nvim": { "branch": "master", "commit": "973f3cb73887d510321653044791d7937c7ec0fa" },
   "diffview.nvim": { "branch": "main", "commit": "4516612fe98ff56ae0415a259ff6361a89419b0a" },
   "flash.nvim": { "branch": "main", "commit": "3c942666f115e2811e959eabbdd361a025db8b63" },
