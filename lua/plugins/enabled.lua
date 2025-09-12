@@ -34,39 +34,46 @@ return {
     },
     config = true,
   },
+  -- {
+  --   "olimorris/codecompanion.nvim",
+  --   opts = {
+  --     strategies = {
+  --       chat = {
+  --         adapter = 'ollama',
+  --       },
+  --       inline = {
+  --         adapter = 'ollama',
+  --       },
+  --       agent = {
+  --         adapter = 'ollama',
+  --       },
+  --     },
+  --     adapters = {
+  --       ollama = function()
+  --         return require('codecompanion.adapters').extend('ollama', {
+  --           name = 'local_ollama',
+  --           env = {
+  --             url = 'http://localhost:11434',
+  --           },
+  --           schema = {
+  --             model = {
+  --               default = 'codegemma',
+  --             },
+  --           },
+  --         })
+  --       end,
+  --     },
+  --   },
+  --   dependencies = {
+  --     "nvim-lua/plenary.nvim",
+  --     "nvim-treesitter/nvim-treesitter",
+  --   },
+  -- },
   {
-    "olimorris/codecompanion.nvim",
+    name = 'amazonq',
+    url = 'https://github.com/awslabs/amazonq.nvim.git',
     opts = {
-      strategies = {
-        chat = {
-          adapter = 'ollama',
-        },
-        inline = {
-          adapter = 'ollama',
-        },
-        agent = {
-          adapter = 'ollama',
-        },
-      },
-      adapters = {
-        ollama = function()
-          return require('codecompanion.adapters').extend('ollama', {
-            name = 'local_ollama',
-            env = {
-              url = 'http://localhost:11434',
-            },
-            schema = {
-              model = {
-                default = 'codegemma',
-              },
-            },
-          })
-        end,
-      },
-    },
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "nvim-treesitter/nvim-treesitter",
+      ssoStartUrl = 'https://genesys-cloud.awsapps.com/start',
     },
   },
 }
