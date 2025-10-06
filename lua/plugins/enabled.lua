@@ -72,6 +72,7 @@ return {
   {
     name = 'amazonq',
     url = 'https://github.com/awslabs/amazonq.nvim.git',
+    enabled = os.getenv("NVIM_PROFILE") == "work",
     opts = {
       ssoStartUrl = 'https://genesys-cloud.awsapps.com/start',
     },
