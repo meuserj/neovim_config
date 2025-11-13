@@ -14,7 +14,6 @@ return {
   -- { "vim-airline/vim-airline", dependencies = { "vim-airline/vim-airline-themes" } },
   { "edkolev/promptline.vim" },
   { "kyoh86/vim-jsonl" },
-  { "xolox/vim-session", dependencies = { "xolox/vim-misc" } },
   { "tpope/vim-sensible" },
   {
     "stevearc/aerial.nvim",
