@@ -84,4 +84,35 @@ return {
   --   },
   --   opts = {}
   -- }
+  {
+    "carlos-algms/agentic.nvim",
+    enabled = os.getenv("NVIM_PROFILE") == "home",
+    event = "VeryLazy",
+    opts = {
+      -- Set the ACP provider to use Gemini
+      provider = "gemini-acp",
+      -- Automatically adds visual selections or the current file to context
+      auto_add_to_context = true,
+    },
+    keys = {
+      -- Keymap to toggle the AI chat interface
+      {
+        "<C-\\>",
+        function()
+          require("agentic").toggle()
+        end,
+        desc = "Toggle Agentic Chat",
+        mode = { "n", "v", "i" },
+      },
+      -- Keymap to switch providers if you ever add Claude or Codex
+      {
+        "<leader>as",
+        function()
+          require("agentic").switch_provider()
+        end,
+        desc = "Switch Agentic Provider",
+        mode = "n",
+      }
+    },
+  }
 }
