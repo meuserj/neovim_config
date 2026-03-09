@@ -1,7 +1,10 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
-vim.o.background = "dark"
+local handle = io.popen("gsettings get org.gnome.desktop.interface color-scheme")
+local result = handle:read("*a")
+handle:close()
+vim.o.background = result:match("dark") and "dark" or "light"
 
 if not vim.g.vscode then
   require("lspconfig").eslint.setup({})
