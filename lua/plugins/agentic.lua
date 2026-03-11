@@ -19,7 +19,7 @@ return {
     local profile = os.getenv("NVIM_PROFILE") or "home"
     
     -- At home we use "gemini". At work, we pretend to use "opencode-acp"
-    local active_provider = "gemini"
+    local active_provider = "gemini-acp"
     if profile == "work" then
       active_provider = "opencode-acp"
     end
