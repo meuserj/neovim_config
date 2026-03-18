@@ -7,6 +7,11 @@ vim.opt.titlestring = "%t %m - nvim"
 vim.opt.clipboard = "unnamedplus"
 vim.opt.formatexpr = ""
 
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+vim.opt.expandtab = true
+
 vim.g.autoformat = false
 
 vim.g.session_autosave = "yes"
