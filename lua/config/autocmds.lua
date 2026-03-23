@@ -10,3 +10,12 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.softtabstop = 2
   end,
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "typescript", "typescriptreact" },
+  callback = function()
+    vim.opt_local.suffixesadd:prepend('.ts')
+    vim.opt_local.includeexpr = "substitute(v:fname, '\\.js$', '.ts', '')"
+  end,
+})
+
