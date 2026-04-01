@@ -1,7 +1,7 @@
 {
   "LazyVim": { "branch": "main", "commit": "fca0af57cc3851b14f96a795a9c9bfafc5096dd1" },
   "aerial.nvim": { "branch": "master", "commit": "645d108a5242ec7b378cbe643eb6d04d4223f034" },
-  "agentic.nvim": { "branch": "main", "commit": "1c662b584511cf61ee23a22256db46cf3f3f8495" },
+  "agentic.nvim": { "branch": "main", "commit": "ff75b6a737f432738ef3c0f444df49898f120aa6" },
   "blink.cmp": { "branch": "main", "commit": "451168851e8e2466bc97ee3e026c3dcb9141ce07" },
   "bufferline.nvim": { "branch": "main", "commit": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3" },
   "bufonly.vim": { "branch": "master", "commit": "43dd92303979bdb234a3cb2f5662847f7a3affe7" },
@@ -24,7 +24,7 @@
   "mini.ai": { "branch": "main", "commit": "4b0a6207341d895b6cfe9bcb1e4d3e8607bfe4f4" },
   "mini.icons": { "branch": "main", "commit": "5b9076dae1bfbe47ba4a14bc8b967cde0ab5d77e" },
   "neo-tree.nvim": { "branch": "main", "commit": "08edbf0ca8b5a05086c14c824e139cc67020c718" },
-  "neogit": { "branch": "master", "commit": "4681c1fdac1b730592ae195576e87406f7255750" },
+  "neogit": { "branch": "master", "commit": "5a7fca171e3ad07380745d573d791e95268b8f3f" },
   "noice.nvim": { "branch": "main", "commit": "7bfd942445fb63089b59f97ca487d605e715f155" },
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },
   "nvim-lint": { "branch": "master", "commit": "4b03656c09c1561f89b6aa0665c15d292ba9499d" },
