@@ -23,7 +23,7 @@
   "mason.nvim": { "branch": "main", "commit": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65" },
   "mini.ai": { "branch": "main", "commit": "4b0a6207341d895b6cfe9bcb1e4d3e8607bfe4f4" },
   "mini.icons": { "branch": "main", "commit": "5b9076dae1bfbe47ba4a14bc8b967cde0ab5d77e" },
-  "neo-tree.nvim": { "branch": "main", "commit": "07ee1f1fd03a05d06f1b9ac0e9355b9474e34209" },
+  "neo-tree.nvim": { "branch": "main", "commit": "08edbf0ca8b5a05086c14c824e139cc67020c718" },
   "neogit": { "branch": "master", "commit": "4681c1fdac1b730592ae195576e87406f7255750" },
   "noice.nvim": { "branch": "main", "commit": "7bfd942445fb63089b59f97ca487d605e715f155" },
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },
