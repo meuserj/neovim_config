@@ -10,9 +10,6 @@ return {
   { "danro/rename.vim" },
   { "junegunn/vim-easy-align" },
   { "vim-scripts/bufonly.vim" },
-  { "edkolev/tmuxline.vim" },
-  -- { "vim-airline/vim-airline", dependencies = { "vim-airline/vim-airline-themes" } },
-  { "edkolev/promptline.vim" },
   { "kyoh86/vim-jsonl" },
   { "tpope/vim-sensible" },
   {
