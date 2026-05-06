@@ -9,9 +9,14 @@ else
 end
 
 if not vim.g.vscode then
-  require("lspconfig").eslint.setup({})
-  require("lspconfig").jsonls.setup({})
-  require("lspconfig").marksman.setup({})
+  vim.lsp.config("eslint", {
+    settings = {
+      workingDirectories = { mode = "auto" },
+    },
+  })
+  vim.lsp.enable("eslint")
+  vim.lsp.enable("jsonls")
+  vim.lsp.enable("marksman")
   vim.cmd([[colorscheme gruvbox]])
   require("aerial").setup({
     -- optionally use on_attach to set keymaps when aerial has attached to a buffer
