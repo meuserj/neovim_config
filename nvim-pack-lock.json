@@ -5,7 +5,7 @@
       "src": "https://github.com/stevearc/aerial.nvim"
     },
     "agentic.nvim": {
-      "rev": "994946ded0f93990abdc67f502408e9c535f25eb",
+      "rev": "e08304f4c61ad5ff6c7662d2ad134ff2897c1b81",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "bufferline.nvim": {
@@ -49,7 +49,7 @@
       "src": "https://github.com/MunifTanjim/nui.nvim"
     },
     "nvim-lspconfig": {
-      "rev": "246572944c2a1e2a646c2e7609ff619b0fe74c18",
+      "rev": "deb0df61b2d6691e745b16a42755e10ad38218e9",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
