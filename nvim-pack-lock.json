@@ -5,7 +5,7 @@
       "src": "https://github.com/stevearc/aerial.nvim"
     },
     "agentic.nvim": {
-      "rev": "88a6d7ae1d21a06cf1e3dd5b66dd62881cbdbfac",
+      "rev": "b7dc624564a08f45141e85a0aef28bb4f89a0d29",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "bufferline.nvim": {
