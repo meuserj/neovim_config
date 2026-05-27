@@ -19,7 +19,7 @@ return {
     local profile = os.getenv("NVIM_PROFILE") or "home"
     local active_provider = "opencode-acp"
     if profile == "work" then
-      active_provider = "cursor-acp"
+      active_provider = "kiro-acp"
     end
 
     require("agentic").setup({
