@@ -17,8 +17,7 @@ return {
   },
   config = function()
     local profile = os.getenv("NVIM_PROFILE") or "home"
-    -- At home we use "gemini". At work, we pretend to use "opencode-acp"
-    local active_provider = "gemini-acp"
+    local active_provider = "opencode-acp"
     if profile == "work" then
       active_provider = "cursor-acp"
     end
@@ -26,6 +25,12 @@ return {
     require("agentic").setup({
       provider = active_provider,
       auto_add_to_context = true,
+      acp_providers = {
+        ["opencode-acp"] = {
+          command = "agy-acp",
+          args = {},
+        }
+      }
     })
   end,
 }
