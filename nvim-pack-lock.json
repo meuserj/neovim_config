@@ -37,7 +37,7 @@
       "src": "https://github.com/OXY2DEV/markview.nvim"
     },
     "neo-tree.nvim": {
-      "rev": "1f62784a592233908331ed7a5e45f5ad199ba7aa",
+      "rev": "655b22b8515f3c4337bcdabe1b5c3f13a7744737",
       "src": "https://github.com/nvim-neo-tree/neo-tree.nvim"
     },
     "neogit": {
