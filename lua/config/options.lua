@@ -20,10 +20,4 @@ vim.g.session_autosave_silent = 1
 vim.g.session_autoload = "no"
 vim.g.session_default_to_last = 0
 
--- Silently ignore custom Kiro session updates
-vim.lsp.handlers["_kiro.dev/session/update"] = function() end
-vim.lsp.handlers["_kiro.dev/metadata"] = function() end
-vim.lsp.handlers["_kiro.dev/compaction/status"] = function() end
-vim.lsp.handlers["_kiro.dev/clear/status"] = function() end
-
 vim.o.guifont = "IosevkaTerm Nerd Font Mono:h9"
