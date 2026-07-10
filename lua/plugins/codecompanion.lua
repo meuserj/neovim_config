@@ -27,8 +27,9 @@ return {
     else
       acp_adapters.opencode = function()
         return require("codecompanion.adapters").extend("opencode", {
+
           commands = {
-            default = { "agy-acp" },
+            default = { vim.fn.expand("~/.local/bin/agy-acp") },
           },
         })
       end
