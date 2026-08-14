@@ -33,11 +33,11 @@
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "markview.nvim": {
-      "rev": "2471f4097f8561a6880a0fe05ee0f21cbc82b374",
+      "rev": "5d9fc2aa6dd1c2fbdc7a68bc79b300e9967b21ff",
       "src": "https://github.com/OXY2DEV/markview.nvim"
     },
     "neo-tree.nvim": {
-      "rev": "47a8e3e58d5b8d478d3342c8bdad067a01b59336",
+      "rev": "0bd0eea2e445bcb110fd202526ccb14d04c74e15",
       "src": "https://github.com/nvim-neo-tree/neo-tree.nvim"
     },
     "neogit": {
