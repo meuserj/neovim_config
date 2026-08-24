@@ -23,7 +23,17 @@ return {
 
     local acp_adapters = {}
     if profile == "work" then
-      acp_adapters.claude_code = "claude_code"
+      acp_adapters.claude_code = function()
+        return require("codecompanion.adapters").extend("claude_code", {
+          -- Upstream default maps this to the literal string "CLAUDE_CODE_OAUTH_TOKEN"
+          -- when that env var isn't set, which gets sent as a bogus bearer token
+          -- (401 Invalid bearer token). `extend` deep-merges, so an empty table here
+          -- wouldn't clear the key -- force it to resolve to "" instead (via the
+          -- "cmd:" env-var-resolution path) so auth() and the subprocess env both
+          -- treat it as unset and fall back to the native `claude login` credentials.
+          env = { CLAUDE_CODE_OAUTH_TOKEN = "cmd:true" },
+        })
+      end
     else
       acp_adapters.opencode = function()
         return require("codecompanion.adapters").extend("opencode", {
