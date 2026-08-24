@@ -23,7 +23,7 @@ return {
 
     local acp_adapters = {}
     if profile == "work" then
-      acp_adapters.kiro = "kiro"
+      acp_adapters.claude_code = "claude_code"
     else
       acp_adapters.opencode = function()
         return require("codecompanion.adapters").extend("opencode", {
@@ -35,7 +35,7 @@ return {
       end
     end
 
-    local chat_adapter = profile == "work" and "kiro" or "opencode"
+    local chat_adapter = profile == "work" and "claude_code" or "opencode"
 
     require("codecompanion").setup({
       strategies = {
