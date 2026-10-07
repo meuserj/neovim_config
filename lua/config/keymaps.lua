@@ -18,3 +18,10 @@ map("n", "<F7>", ":bprevious<cr>")
 map("n", "<F8>", ":bnext<cr>")
 map("n", "<C-z>", ":bp <BAR> bd #<cr>")
 map("v", "<Enter>", "<Plug>(EasyAlign)")
+
+-- Neovide doesn't get terminal paste handling, so map Ctrl-Shift-V to paste from the system clipboard
+if vim.g.neovide then
+  map({ "n", "v", "x" }, "<C-S-v>", '"+p', { desc = "Paste from system clipboard" })
+  map({ "i", "c" }, "<C-S-v>", "<C-r>+", { desc = "Paste from system clipboard" })
+  map("t", "<C-S-v>", [[<C-\><C-n>"+pi]], { desc = "Paste from system clipboard" })
+end
