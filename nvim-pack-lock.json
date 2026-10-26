@@ -37,7 +37,7 @@
       "src": "https://github.com/OXY2DEV/markview.nvim"
     },
     "neo-tree.nvim": {
-      "rev": "8f270d3a5a49e1282c3e6708902b92d6fa50a97e",
+      "rev": "2a768b17c9d16fdffe85a477737e40ac53896e69",
       "src": "https://github.com/nvim-neo-tree/neo-tree.nvim"
     },
     "neogit": {
@@ -53,7 +53,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "29212d826054bb2948fa9d3a99eca9bf6a050eb2",
+      "rev": "a2f694478be07f89c2d03cc17858a8745a400c4b",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-web-devicons": {
