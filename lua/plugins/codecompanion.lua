@@ -35,17 +35,18 @@ return {
         })
       end
     else
-      acp_adapters.opencode = function()
+      acp_adapters.agy = function()
         return require("codecompanion.adapters").extend("opencode", {
-
+          name = "agy",
+          formatted_name = "Antigravity",
           commands = {
-            default = { vim.fn.expand("~/.local/bin/agy-acp") },
+            default = { vim.fn.expand("~/.local/bin/agy"), "acp" },
           },
         })
       end
     end
 
-    local chat_adapter = profile == "work" and "claude_code" or "opencode"
+    local chat_adapter = profile == "work" and "claude_code" or "agy"
 
     require("codecompanion").setup({
       strategies = {
