@@ -33,7 +33,7 @@
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "markview.nvim": {
-      "rev": "aadb6d817577d553bbef61e8b9073f1bf4b87e08",
+      "rev": "9cd60a0ea05217e390126a5c29e0d2e323cc537f",
       "src": "https://github.com/OXY2DEV/markview.nvim"
     },
     "neo-tree.nvim": {
@@ -41,7 +41,7 @@
       "src": "https://github.com/nvim-neo-tree/neo-tree.nvim"
     },
     "neogit": {
-      "rev": "aa99b440b266bcf7e03399f149ed46f981555fa3",
+      "rev": "0288a0fe32bce35f4ea1195f9b546a71c5977a82",
       "src": "https://github.com/NeogitOrg/neogit"
     },
     "nui.nvim": {
@@ -49,11 +49,11 @@
       "src": "https://github.com/MunifTanjim/nui.nvim"
     },
     "nvim-lspconfig": {
-      "rev": "443d92c6bea761ab54cdde46fb197a2b4d614bdd",
+      "rev": "6a3ddecf60e19f164390308f502e67f3199f58e8",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "60c0f468de3e636fa660a419d537e8033aca4e39",
+      "rev": "0bf28a34f1da3259809807d4b4b63c93aa9055aa",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-web-devicons": {
